@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    /*font-family: 'Vollkorn', serif;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  svg{
+    /*display: block;*/
+    margin: 0;
+  }
+  #visContainer{
+    margin: 0;
+    height: calc(100% - 94px);
+    width: 100%;
+    overflow-x: scroll;
+    float:left;
+    border-bottom: 1px solid black;
+  }
+  .timelineText{
+    text-anchor: end;
+    font-weight: 300;
+  }
+
+  #visSVG{
+    min-height: 300px;
+    min-width: 450px;
+  }
+
+  svg text{
+    /*font-size: 14px;*/
+    font-size: 1.5vw;
+    /*text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;*/
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+  }
+
+  @media screen and (min-width: 870px) {
+    svg text {
+      font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    svg text {
+      font-size: 9px;
+    }
+  }
+
+  /*-----------------*/
+  /*---- Nav Bar ----*/
+  /*-----------------*/
+
+  a{
+    text-decoration: none;
+  }
+
+  .navButtons{
+    padding: 20px;
+    margin: 0 auto;
+    width: 15px;
+    height: 15px;
+  }
+  .navButtonsContainer{
+    vertical-align:middle; 
+    text-align:center;
+    height: 55px;
+  }
+
+  #gridNavLink:hover  + #visNav{
+    opacity: .5;
+  }
+  #gridNav{
+    opacity: .5;
+  }
+  #gridNav:hover{
+    opacity: 1;
+  }
+
+  /*-----------------*/
+  /*---Intro Text----*/
+  /*-----------------*/
+
+
+  #introText{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  h2{
+    font-family: 'lato', sans-serif;
+    font-weight: 900;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  h4{
+    font-family: 'vollkorn', serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+  }
+
+  .descrHead{
+    font-size: 48px;
+  }
+
+  #introText p{
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+  }
+
+  /*-----------------*/
+  /*---Descr Text----*/
+  /*-----------------*/
+
+   .descriptionText{
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 12px;
+  }
+
+  .descriptionLink{
+    font-family: 'vollkorn', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+  }
+
+  .descriptionLink:link {
+      color: black;
+  }
+  .descriptionLink:visited {
+      color: black;
+  }
+  .descriptionLink:hover {
+      background: yellow;
+      text-decoration: none;
+  }
+  .descriptionLink:active {
+      background: yellow;
+      text-decoration: none;
+  }
+  
+
+  /*-----------------*/
+  /*---Interaction---*/
+  /*-----------------*/
+
+  .hoverText{
+    font-size: 13px;
+  }
+  .hoverTextName{
+    font-weight: 900;
+  }
+  .hoverTextKind{
+    font-weight: 300i;
+  }
+
+
+  .timelineRect, .points, .timelineText{
+    cursor: alias;
+  }
+
+  /*-----------------*/
+  /*------footer-----*/
+  /*-----------------*/
+
+#footer{
+    max-width: 500px;
+    margin: auto;
+    font-size: 14px;
+    font-family: 'vollkorn', serif;
+    font-weight: 400;
+    font-style: italic;
+    border-top: 1px solid black;
+}
+
+.footer { 
+  float:left; 
+  text-align:left; 
+  display:inline; 
+  padding: 20px;
+}
+.footer a{ 
+  color: black;
+  text-decoration: underline;
+}
+

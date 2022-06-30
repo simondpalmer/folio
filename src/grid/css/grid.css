@@ -1,0 +1,253 @@
+body{
+  margin: 0;
+  /*font-family: 'Vollkorn', serif;*/
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#sepLine{
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+#visHolder{
+  width: 80%;
+  margin: 0 auto;
+  /*margin: 5%;*/
+}
+
+#gridContainer{
+  margin: 0 auto;
+}
+
+/*-----------------*/
+/*---- Nav Bar ----*/
+/*-----------------*/
+
+a{
+  text-decoration: none;
+}
+
+.navButtons{
+  padding: 20px;
+  margin: 0 auto;
+  width: 15px;
+  height: 15px;
+  border:0;
+  text-decoration: none;
+}
+.navButtonsContainer{
+  vertical-align:middle; 
+  text-align:center;
+  height: 55px;
+}
+
+#gridNavLink:hover  + #gridNav{
+  opacity: .5;
+}
+#visNav{
+  opacity: .5;
+}
+#visNav:hover{
+  opacity: 1;
+}
+
+/*-----------------*/
+/*---Interface-----*/
+/*-----------------*/
+
+#interface{
+  margin: 0px;
+  text-align:center;
+}
+
+.buttons {
+  background:none;
+  border:none;
+  outline: none;
+  font-family: 'vollkorn', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  margin:10px;
+  padding:3px;
+  cursor: alias;
+}
+.buttons:focus { 
+  background-color: yellow;
+}
+.buttons:hover { 
+  background-color: yellow;
+}
+
+/*-----------------*/
+/*---Grid Item-----*/
+/*-----------------*/
+
+.gridItem{
+  width: 140px;
+  cursor: alias;
+}
+
+.gridItem h5{
+  line-height: 18px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 18px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+
+.gridItem h6{
+  line-height: 13px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 12px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+
+.gridItem p{
+  font-family: 'vollkorn', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  /*line-height: 0px;*/
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+  .gridItem:focus { 
+  background-color: yellow;
+}
+.gridItem:hover { 
+  background-color: yellow;
+}
+
+/*-----------------*/
+/*---Intro Text----*/
+/*-----------------*/
+
+#introText{
+  max-width: 480px;
+  /*float:left;*/
+  margin: auto;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+h2{
+  font-family: 'lato', sans-serif;
+  font-weight: 900;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+h4{
+  font-family: 'vollkorn', serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 20px;
+}
+
+.descrHead{
+  font-size: 48px;
+}
+
+#introText p{
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+}
+
+/*-----------------*/
+/*---Descr Text----*/
+/*-----------------*/
+
+ .descriptionText{
+  max-width: 480px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 12px;
+}
+.descriptionImage{
+  padding-top: 10px;
+  max-width: 100%;
+}
+.descriptionLink{
+  font-family: 'vollkorn', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.descriptionLink:link {
+    color: black;
+}
+.descriptionLink:visited {
+    color: black;
+}
+.descriptionLink:hover {
+    background: yellow;
+    text-decoration: none;
+}
+.descriptionLink:active {
+    background: yellow;
+    text-decoration: none;
+}
+
+
+/*-----------------*/
+/*---Interaction---*/
+/*-----------------*/
+
+.hoverText{
+  font-size: 13px;
+}
+.hoverTextName{
+  font-weight: 900;
+}
+.hoverTextKind{
+  font-weight: 300i;
+}
+
+
+.timelineRect, .points, .timelineText{
+  cursor: alias;
+}
+
+/*-----------------*/
+/*------footer-----*/
+/*-----------------*/
+
+#footer{
+  max-width: 480px;
+  margin: auto;
+  font-size: 14px;
+  font-family: 'vollkorn', serif;
+  font-weight: 400;
+  font-style: italic;
+  border-top: 1px solid black;
+}
+
+.footer { 
+float:left; 
+text-align:left; 
+display:inline; 
+padding: 20px;
+}
+.footer a{ 
+color: black;
+text-decoration: underline;
+}
