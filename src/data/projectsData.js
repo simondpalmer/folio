@@ -73,12 +73,12 @@ const projectsData = [
         description: <p>University of Technology Sydney requested a Rowing Club for their rowing team. Including a place to store and launch boats for ragatta's we also designed a mezzanine space for conferences and a fully functional banquet and commercial kitchen</p>,
         image: [
             {
-            original: 'https://ipfs.io/ipfs/QmWFreFiaWJCDjSfW7WffgUT6tJXfu54x179jeKNgeXx8S?filename=HSL_ROW_Board01_lrg.jpg',
-            thumbnail: 'https://ipfs.io/ipfs/QmdyRa16zYWLMBrLQYkDbNfmEBda7MXGFAQtVK2RphpE4t?filename=HSL_ROW_Board01_sml.jpg',
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Hassell/uts_rowing/HSL_ROW_Board01_lrg.jpg',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Hassell/uts_rowing/HSL_ROW_Board01_sml.jpg',
             },
             {
-            original: 'https://ipfs.io/ipfs/QmSRHmkUeMMTgre85Z5t5bvz9hxgzR1PgQfdmgQHvbcrfE?filename=HSL_ROW_Board02_lrg.jpg',
-            thumbnail: 'https://ipfs.io/ipfs/QmVm3iAVYjHmwssah34XKsj7NDFhAztfAs5d7qantCz5G3?filename=HSL_ROW_Board02_sml.jpg',
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Hassell/uts_rowing/HSL_ROW_Board02_lrg.jpg',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Hassell/uts_rowing/HSL_ROW_Board02_sml.jpg',
             },
             {
             original: 'https://ipfs.io/ipfs/QmQftPLwm4sr87Mqpx479UV7tytFov53nY5GKNyM9rPS52?filename=HSL_ROW_Board03_lrg.jpg',
