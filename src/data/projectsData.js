@@ -662,7 +662,7 @@ const projectsData = [
         start: "2022-02-02",
         end: "2022-09-10",
         kind: "soft project",
-        program: "Ideally",
+        program: "Ideally Solutions",
         collaboratorname: "",
         collaboratorlink: "",
         description: <p>Find relevant regulatory code pertaining to a given property and visualize setbacks and other relevant information to be used by realtors, the city and the general public alike</p>,

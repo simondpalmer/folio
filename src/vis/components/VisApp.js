@@ -570,7 +570,7 @@ for (var i = 0; i < t.length; i++) {
             <div>
             {filterproject!==false ? <div className="gallery"> <ImageGallery items={filterproject.image} showPlayButton={false} showNav={false}/></div> : <div className="lds-ellipsis" ><div></div><div></div><div></div><div></div></div>}
             </div>
-            <div>
+            <div className="collaborationText" style={{display: filterproject.collaboratorname === "" ? 'none' : ''}} >
               <a href={filterproject.collaboratorlink} target="_blank">
                 <h4 id='introText'>Collaborator {filterproject.collaboratorname}</h4>
               </a>
