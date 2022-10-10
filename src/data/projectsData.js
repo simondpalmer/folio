@@ -629,7 +629,7 @@ const projectsData = [
         program: "ETHDenver2021",
         collaboratorname: "ETHDenver2021",
         collaboratorlink: "https://www.ethdenver.com/",
-        description: <p>A decentralized application for the Furry community to create, share and sell their own artwork. As an artistic community Furries have an issue wherby their artwork is used and distributed without being payed for it. This is preventing these communities to create and share their creativity. This application involved using blockchain smart contracts and steganography to embed a creators stamp within the artwork and is tracked on a destributed ledger. In this case the NEAR blockchain<br></br> Challenges was working with untyped javascript, npm, non-modular js libraries. Technologies used was IPFS, React, Rust, Steganography, NEAR, Ceramic, WASM, Parcel</p>,
+        description: <p>A decentralized application for the Furry community to create, share and sell their own artwork. As an artistic community Furries have an issue wherby their artwork is used and distributed without being payed for. This is preventing these communities to create and share their creativity. This application involved using blockchain smart contracts and steganography to embed a creators stamp within the artwork and is tracked on a destributed ledger. In this case the NEAR blockchain<br></br> Challenges were working with untyped javascript, npm, non-modular js libraries. Technologies used was IPFS, React, Rust, Steganography, NEAR, Ceramic, WASM, Parcel</p>,
         image: [
             {
             original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/EthDenver2021/furball/NEAR_FUR_Logo_lrg.jpg?raw=true',
@@ -655,6 +655,166 @@ const projectsData = [
             }
         ],
         link: "https://github.com/simondpalmer/near-enough",
+    },
+    {
+        title: "Ideally",
+        subtitle: "Ideally App",
+        start: "2022-02-02",
+        end: "2022-09-10",
+        kind: "soft project",
+        program: "Ideally",
+        collaboratorname: "",
+        collaboratorlink: "",
+        description: <p>Find relevant regulatory code pertaining to a given property and visualize setbacks and other relevant information to be used by realtors, the city and the general public alike</p>,
+        image: [
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Ideally/ui/ID_UI_01_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Ideally/ui/ID_UI_01_sml.jpg?raw=true',
+            }
+        ],
+        link: "https://ideally.place",
+    },
+    {
+        title: "SD Tools",
+        subtitle: "Architectural BIM Tools",
+        start: "2018-02-02",
+        end: "2022-09-10",
+        kind: "soft project",
+        program: "Office Tools",
+        collaboratorname: "pyRevit",
+        collaboratorlink: "https://github.com/eirannejad/pyRevit",
+        description: <p>A suite of plugins for the architects firm-wide to 10x their design and production work flows while using Autodesk Revit Architecture</p>,
+        image: [
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Shubin%20Donaldson/SDTools/SD_Tools_01_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Shubin%20Donaldson/SDTools/SD_Tools_01_sml.jpg?raw=true',
+            }
+        ],
+        link: "https://github.com/simondpalmer/SDTools",
+    },
+    {
+        title: "Block Party",
+        subtitle: "BIM and Web3.0 - Crowdsourced Funding, Design and Development",
+        start: "2022-02-02",
+        end: "2022-07-10",
+        kind: "conference",
+        program: "BILT-2022",
+        collaboratorname: "",
+        collaboratorlink: "",
+        description: <p>Digital Built Environment Conference 2022 demo of a decentralized App or dApp that allows anyone to create a proposal, gain funding towards it from supporters. Once it achieves it’s funding goal it becomes a Project. Think KickStarter or Go FundMe with the added benefit we can onboard Architects who can create and pay the consultant team all on the same platform</p>,
+        image: [
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI01_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI01_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI02_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI02_sml.jpg?raw=true',
+            }, 
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI03_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI03_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI04_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI04_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI05_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI05_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI06_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI06_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI07_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI07_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI08_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/DBEI/Block%20Party/NEAR_BP_UI08_sml.jpg?raw=true',
+            },
+        ],
+        link: "https://simondpalmer.github.io/BILT-2022-Session2.4/",
+    },
+    {
+        title: "GIS NLP BIM",
+        subtitle: "Conference paper on GIS, NLP and BIM",
+        start: "2022-02-02",
+        end: "2022-07-10",
+        kind: "conference",
+        program: "BILT-2022",
+        collaboratorname: "",
+        collaboratorlink: "",
+        description: <p>Digital Built Environment Conference 2022 demo of a web service for the public & AEC professionals to visualize regulatory code as it relates to a given property</p>,
+        image: [
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Near%20Protocol/near-enough/NEAR_ENG_Process_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/Near%20Protocol/near-enough/NEAR_ENG_Process_sml.jpg?raw=true',
+            }
+        ],
+        link: "https://simondpalmer.github.io/BILT-2022-Session1.3/",
+    },
+    {
+        title: "IOT scheduler",
+        subtitle: "An IOT device to schedule the operation of a remote water pump",
+        start: "2021-12-02",
+        end: "2022-03-10",
+        kind: "soft project",
+        program: "IOT",
+        collaboratorname: "",
+        collaboratorlink: "",
+        description: <p>A farmer required a way to remotely schedule when their water pump would turn on and off. It included the following<br></br>1. Accessed via mobile device<br></br>2. Schedule for any given day of the week<br></br>3. Have the ability to turn on and off twice in the one day<br></br>4. Ability to table the current levels of the surrounding lakes and reservoirs</p>,
+        image: [
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_01_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_01_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_02_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_02_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_03_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_03_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_04_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_04_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_05_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/IOT/Padre%20Juan/IOT_PJ_05_sml.jpg?raw=true',
+            }
+        ],
+        link: "https://github.com/simondpalmer/IOT-WeeklyScheduler",
+    },
+    {
+        title: "CryptoTwin",
+        subtitle: "Crypto-Twin - CONVR 2022 Hackathon",
+        start: "2022-09-02",
+        end: "2022-10-25",
+        kind: "soft project",
+        program: "ArchDAO",
+        collaboratorname: "ArchDAO",
+        collaboratorlink: "https://archidao.io/",
+        description: <p>no1s1 is a prototype of a self-owning house on the blockchain. It is a proof of concept that a physical space can have ownership and self-governance over it's own generation of value. Possible opportunites are buildings that can sell solar energy and user data to one another without intermediatures</p>,
+        image: [
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/ArchiDAO/cryptotwin/ADAO_CT_01_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/ArchiDAO/cryptotwin/ADAO_CT_01_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/ArchiDAO/cryptotwin/ADAO_CT_02_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/ArchiDAO/cryptotwin/ADAO_CT_02_sml.jpg?raw=true',
+            },
+            {
+            original: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/ArchiDAO/cryptotwin/ADAO_CT_03_lrg.jpg?raw=true',
+            thumbnail: 'https://github.com/simondpalmer/folio/blob/23b3d7a566a27c89fee4aeebb64637f9ef98b833/src/images/ArchiDAO/cryptotwin/ADAO_CT_03_sml.jpg?raw=true',
+            }
+        ],
+        link: "https://archidao.io/",
     },
 ]
 export default projectsData

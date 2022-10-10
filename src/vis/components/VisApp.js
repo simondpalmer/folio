@@ -581,7 +581,7 @@ for (var i = 0; i < t.length; i++) {
         <h2 className="descrHead">Simon Palmer</h2>
         <h4 className="Occupation">Architect | Technologist | Entrepreneur </h4>
         <p> Simon Palmer is passionate about combining art and science to innovate society in the built and virtual environments. As a technologist with a background as an architect of the built environment, and as a certified blockchain developer, his creativity explores the intersection of the arts, culture and science in the physical environment and on the web.</p>
-        <p>Above is a meta-visualization of selected architectural projects (firm), virtual projects (soft), installations, media appearances, and others. Explorable as a grid and as a timeline, it offers a chance to reflect on connections Simon has made, which guide and influence his current makings.</p>
+        <p>Above is a meta-visualization of selected architectural projects (firm), software and virtual projects (soft), installations, conferences and others. Explorable as a grid and as a timeline, it offers a chance to reflect on connections Simon has made, which guide and influence his current makings.</p>
         <p>Simon is Australian and lives currently in the US. He holds a BA and MA in Architecture and is a registered architect. He also has various accreditations including as a Blockchain developer by the Consensys Academy and the NEAR protocol. As a technologist, entrepreneur and architect, Simon explores the boundaries of spatial knowledge and interaction in the post-digital age.</p>
       </div>
       </div>
